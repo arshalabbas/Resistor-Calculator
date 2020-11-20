@@ -1,0 +1,10 @@
+.select {
+    outline: none;
+    cursor: pointer;
+}
+
+.resistor {
+    background-color: grey;
+    width: 30em;
+    height: 12em;
+}

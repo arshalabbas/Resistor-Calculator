@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="">
+        <div class="row">
+            <div class="container">
+                <div class="col-md-12">
+                    <h1 class="ml-5">Resistor Color Code</h1>
+                </div>
+            </div>
+            <form class="col-md-6 mt-3 ml-2 mr-2">
+                <select id="band1" class="select w-100 mt-3 h-25">
+                    <option value=0>Black</option>
+                    <option value=1>Brown</option>
+                    <option value=2>Red</option>
+                    <option value=3>Orange</option>
+                    <option value=4>Yellow</option>
+                    <option value=5>Green</option>
+                    <option value=6>Blue</option>
+                    <option value=7>Violet</option>
+                    <option value=8>Grey</option>
+                    <option value=9>White</option>
+                </select>
+                <select id="band2" class="select w-100 mt-3 h-25">
+                    <option value=0>Black</option>
+                    <option value=1>Brown</option>
+                    <option value=2>Red</option>
+                    <option value=3>Orange</option>
+                    <option value=4>Yellow</option>
+                    <option value=5>Green</option>
+                    <option value=6>Blue</option>
+                    <option value=7>Violet</option>
+                    <option value=8>Grey</option>
+                    <option value=9>White</option>
+                </select>
+                <select id="multi" class="select w-100 mt-3 h-25">
+                    <option value="">Black</option>
+                    <option value="0">Brown</option>
+                    <option value="00">Red</option>
+                    <option value="k">Orange</option>
+                    <option value="0k">Yellow</option>
+                    <option value="00k">Green</option>
+                    <option value="M">Blue</option>
+                    <option value="10M">Violet</option>
+                    <option value="00M">Grey</option>
+                    <option value="000M">White</option>
+                </select>
+                <select id="tol" class="select w-100 mt-3 h-25">
+                    <option value=5>Gold</option>
+                    <option value=10>Silver</option>
+                    <option value=20>No Color</option>
+                </select>
+                <input type="button" value="Result" onclick="result()" class="btn btn-info w-100 mt-3">
+            </form>
+            <div class="result-space">
+                <h1 id="result">Result here</h1>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="assets/script/script.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
+        integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
