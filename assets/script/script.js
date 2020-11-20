@@ -12,5 +12,5 @@ function result() {
     var band12 = band1+band2;
     var final =band12+multiplier;
 
-    resultScreen.innerHTML = `Result here : ${final} ohm ±${tolerance}`;
+    resultScreen.innerHTML = `Result : ${final} ohm ±${tolerance}`;
 }
